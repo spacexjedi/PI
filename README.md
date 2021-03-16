@@ -5,10 +5,20 @@ https://github.com/spacexjedi/PI/wiki
 https://github.com/spacexjedi/PI/wiki    
 
 - História dos Usuários    
-em breve no issues  
+no issues 
 
 - Backlog e tarefas  
 zenhub  
 
 - Comandos   
-em breve no readme  
+É necessário ter a versão 3 ou superior da linguagem Python instalada.  
+
+Módulos para serem instalados:  
+```
+pip install flask
+
+```
+Para executar  
+```
+python main.py
+```

@@ -1,14 +1,7 @@
 from flask import Flask, render_template, request
 from random import choice
 
-'''
-from website import create_app
 
-app = create_app()
-
-if __name__ == '__main__':
-    app.run(debug=True)
-'''
 web_site = Flask(__name__)
 
 number_list = [

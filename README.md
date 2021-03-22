@@ -18,8 +18,8 @@
 
 ## Funcionalidades
 
-* ![screenshoot]()
-* ![screenshoot]()
+* ![screenshoot](https://github.com/spacexjedi/PI/blob/master/screenshoots/image.jpg)  
+* ![screenshoot](https://github.com/spacexjedi/PI/blob/master/screenshoots/image2.jpg)  
 
 ## Como usar
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:

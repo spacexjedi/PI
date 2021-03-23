@@ -36,6 +36,11 @@ $ npm install
 
 # Executar
 $ npm start
+
+# configs electron
+$ npm install --global yarn
+$ yarn electron:build
+$ yarn electron:serve
 ```
 
 

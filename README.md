@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">Um jogo de pet virtual <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">Um jogo de pet virtual <a href="https://kivy.org/doc/stable/gettingstarted/installation.html" target="_blank">Python Kivy</a>.</h4>
 
 
 <p align="center">
@@ -32,15 +32,11 @@ $ git clone https://github.com/spacexjedi/PI
 $ cd PI
 
 # Instalar dependências
-$ npm install
+$ python -m pip install kivy[base] kivy_examples
 
 # Executar
-$ npm start
+$ python main.py
 
-# configs electron
-$ npm install --global yarn
-$ yarn electron:build
-$ yarn electron:serve
 ```
 
 

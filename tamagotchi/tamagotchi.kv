@@ -1,0 +1,41 @@
+Manager:
+	Menu:
+		name: 'menu'
+	Game:
+		name: 'game'
+
+<MenuButton@Button>:
+	font_size:'50sp'
+	background_normal:'menuButton.png'
+	background_down:'menuButtonPressed.png'
+	border:90,90,90,90
+
+<Menu>:
+	BoxLayout:
+		canvas:
+			Color:
+				rgba:1,1,1,1
+			Rectangle:
+				size:self.size
+				pos:self.pos
+				source:'menuBackground.png'
+		orientation:'vertical'
+		padding:'200dp','50dp'
+		spacing:'150dp'
+		Widget:
+		BoxLayout:
+			padding:'100dp'
+			spacing:'150dp'
+			MenuButton:
+				text:'Start'
+				on_release:app.root.current = 'game'
+			MenuButton:
+				text:'Exit'
+				on_release:app.stop()
+
+<Pet>:
+	source:'pet.png'
+
+<Game>:
+	Pet:
+

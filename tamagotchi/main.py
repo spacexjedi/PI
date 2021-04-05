@@ -24,7 +24,7 @@ class Game(Screen):
 	def update(self, *args):
 		self.ids.pet.speed += self.height * 1/30  #1/30 é o delta t
 		self.ids.pet.y += self.ids.pet.speed * 1/30
-		if 1 == 1: # condicao de perder o jogo
+		if health == 1: # condicao de perder o jogo
 			self.gameOver()
 
 	def gameOver(self, *args):

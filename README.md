@@ -32,10 +32,13 @@ $ git clone https://github.com/spacexjedi/PI
 $ cd PI
 
 # Instalar dependências
-$ python -m pip install kivy[base] kivy_examples
+$  pip install -r requirements.txt
+$  pip install humanize
 
 # Executar
-$ python main.py
+$  set FLASK_APP=init.py
+$  set FLASK_ENV=development
+$  python -m flask run --host='localhost' --port=5001
 
 ```
 

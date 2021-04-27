@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">Um jogo de pet virtual <a href="https://kivy.org/doc/stable/gettingstarted/installation.html" target="_blank">Python Kivy</a>.</h4>
+<h4 align="center">Um jogo de pet virtual <a href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank">Python Flask</a>.</h4>
 
 
 <p align="center">
